@@ -1,6 +1,6 @@
 import React from 'react';
 
-type Question = {
+type prop = {
   question: string;
   answers: string[];
   callback: any;
@@ -9,7 +9,7 @@ type Question = {
   totalQuestions: number;
 };
 
-const QuestionCard: React.FC<Question> = ({
+const QuestionCard: React.FC<prop> = ({
   question,
   answers,
   callback,
